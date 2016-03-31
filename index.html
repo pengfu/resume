@@ -20,7 +20,17 @@
 <script type="text/javascript" src="js/jquery.colorbox.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 <script type="text/javascript">
-		Cufon.replace('h1,h2');
+		<!-- Cufon.replace('h1,h2'); -->
+		$(document).ready(function(){
+			$("#strokeIframe").load(function(){
+			setTimeout(function(){$(this).css('width','251px').css('margin-left',73px);},1000)
+
+			
+			
+			});
+			
+		})
+		
 </script>
 </head>
 <body>
@@ -135,19 +145,23 @@
         </div>
         <!-- End 4th Row -->
          <!-- Begin 5th Row -->
-        <!-- <div class="entry">
+        <div class="entry">
         <h2>WORKS</h2>
         	<ul class="works">
-        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
-        		<li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+				<li>
+					<iframe id="strokeIframe" style="width:250px;height:306px;overflow:hidden;border:1px solid gray" src = "http://yun.changyan.com/ejx/chars/stroke.html#ChineseWord=%E7%A6%8F&strokeNum=0&playAll=1&speed=10&setspeed=0&doodle=0&eval=0&doodleWidth=5&contourType=0&doodleStyle=#ff0000" />
+					
+				</li>
+        		<!-- <li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li> -->
+        		<!-- <li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
         		<li><a href="images/3.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
         		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
         		<li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
         		<li><a href="images/3.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
         		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
-        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li> -->
         	</ul>
-        </div> -->
+        </div>
         <!-- Begin 5th Row -->
       </div>
       <div class="clear"></div>
